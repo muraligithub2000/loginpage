@@ -65,7 +65,7 @@ function DropdownPage() {
   };
 
 const handleBack = () => {
-  navigate("/login", { state: { reset: true } });
+  navigate("/", { state: { reset: true } });
 };
 
   return (
